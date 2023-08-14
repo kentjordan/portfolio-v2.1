@@ -1,6 +1,3 @@
-import calculatorImage from "../../assets/calculator.png";
-import kabsahiCartImage from "../../assets/kabsahi-cart.png";
-
 const Portfolio = () => {
   return (
     <div className='h-screen flex flex-col items-center justify-center p-10'>
