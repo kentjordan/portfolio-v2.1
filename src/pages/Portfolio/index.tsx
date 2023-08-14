@@ -1,8 +1,8 @@
 const Portfolio = () => {
   return (
     <div className='h-screen flex flex-col items-center justify-center p-10'>
-      <h1 className='text-2xl'>Live Portfolio</h1>
-      <span className='text-stone-500'>
+      <h1 className='text-2xl text-center'>Live Portfolio</h1>
+      <span className='text-stone-500 text-center'>
         Other works are on my{" "}
         <a
           className='text-blue-400'
@@ -12,8 +12,10 @@ const Portfolio = () => {
         </a>
       </span>
       <div className='flex flex-col items-center my-16'>
-        <span className='text-stone-500 my-8'>Click each to open</span>
-        <div className='flex w-[900px] flex-wrap justify-center'>
+        <span className='text-stone-500 my-8 text-center'>
+          Click each to open
+        </span>
+        <div className='flex max-w-[900px] flex-wrap justify-center'>
           <div
             className='flex flex-col w-64 shadow m-2 rounded-md cursor-pointer p-4'
             onClick={() => window.open("https://calc-kjordan.vercel.app/")}>
